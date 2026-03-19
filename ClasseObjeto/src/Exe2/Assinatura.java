@@ -36,7 +36,7 @@ public class Assinatura {
             System.out.println("Assistindo: " + nomeFilme);
         }
         else{
-            System.out.println("Conta suspensa! Pague a fatura para continuar assistindo.");
+            System.out.println("Exe1.Conta suspensa! Pague a fatura para continuar assistindo.");
         }
     }
 
