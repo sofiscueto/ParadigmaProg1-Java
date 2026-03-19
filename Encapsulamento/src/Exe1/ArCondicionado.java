@@ -1,3 +1,5 @@
+package Exe1;
+
 public class ArCondicionado {
 
     private String marca;

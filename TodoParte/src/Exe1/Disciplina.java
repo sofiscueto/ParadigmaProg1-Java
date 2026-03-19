@@ -1,3 +1,5 @@
+package Exe1;
+
 import java.util.ArrayList;
 
 public class Disciplina {
@@ -25,7 +27,7 @@ public class Disciplina {
 
     public void matricularAluno(Aluno a){
         this.alunos.add(a);
-        System.out.println("Aluno matriculado com sucesso");
+        System.out.println("Exe1.Aluno matriculado com sucesso");
     }
 
     public void criarAvaliacao(int id, String nome){
@@ -59,7 +61,7 @@ public class Disciplina {
 
     @Override
     public String toString() {
-        return "\nDisciplina{" +
+        return "\nExe1.Disciplina{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", professor='" + professor + '\'' +

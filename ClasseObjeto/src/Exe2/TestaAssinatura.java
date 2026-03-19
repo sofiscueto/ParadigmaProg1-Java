@@ -1,3 +1,5 @@
+package Exe2;
+
 public class TestaAssinatura {
 
     public static void main(String[] args) {

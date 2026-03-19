@@ -1,3 +1,5 @@
+package Exe1;
+
 public class Questao {
     private int numero;
     private String enunciado;
@@ -38,7 +40,7 @@ public class Questao {
 
     @Override
     public String toString() {
-        return "\nQuestao{" +
+        return "\nExe1.Questao{" +
                 "numero=" + numero +
                 ", enunciado='" + enunciado + '\'' +
                 ", valor=" + valor +

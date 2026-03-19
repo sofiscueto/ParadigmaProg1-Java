@@ -1,3 +1,5 @@
+package Exe1;
+
 public class TestaAcademico {
 
     public static void main(String[] args) {

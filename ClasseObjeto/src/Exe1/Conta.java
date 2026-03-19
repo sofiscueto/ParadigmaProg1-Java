@@ -1,3 +1,5 @@
+package Exe1;
+
 public class Conta {
     public int numeroConta;
     public int agencia;
@@ -36,17 +38,17 @@ public class Conta {
             }
         }
         else {
-            System.out.println("Erro: Conta inválida!");
+            System.out.println("Erro: Exe1.Conta inválida!");
         }
     }
 
     public void encerrarConta(){
         if(this.saldo == 0){
             this.status = false;
-            System.out.println("Conta encerrada com sucesso!");
+            System.out.println("Exe1.Conta encerrada com sucesso!");
         }
         else {
-            System.out.println("Erro: Conta possui saldo. Saque antes de encerrar.");
+            System.out.println("Erro: Exe1.Conta possui saldo. Saque antes de encerrar.");
         }
     }
 

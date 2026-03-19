@@ -1,3 +1,5 @@
+package Exe1;
+
 import java.util.ArrayList;
 
 public class Avaliacao {
@@ -47,7 +49,7 @@ public class Avaliacao {
 
     @Override
     public String toString() {
-        return "\nAvaliacao{" +
+        return "\nExe1.Avaliacao{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", questaos=" + questoes +

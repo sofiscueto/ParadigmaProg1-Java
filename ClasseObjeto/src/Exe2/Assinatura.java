@@ -1,3 +1,5 @@
+package Exe2;
+
 public class Assinatura {
 
     public String usuario;
@@ -43,12 +45,12 @@ public class Assinatura {
     // Método cancelar assinatura
     public void cancelarAssinatura(){
         this.ativo = false;
-        System.out.println("Assinatura cancelada.");
+        System.out.println("Exe2.Assinatura cancelada.");
     }
 
     // Método toString
     public String toString(){
-        return "Dados da Assinatura:\n" +
+        return "Dados da Exe2.Assinatura:\n" +
                "Usuário: " + this.usuario + "\n" +
                "Plano: " + this.plano + "\n" +
                "Mensalidade: R$ " + this.mensalidade + "\n" +

@@ -1,3 +1,5 @@
+package Exe1;
+
 public class Aluno {
     private int id;
     private String nome, ra, curso;
@@ -46,7 +48,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "\nAluno{" +
+        return "\nExe1.Aluno{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", ra='" + ra + '\'' +

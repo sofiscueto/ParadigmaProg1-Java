@@ -1,3 +1,5 @@
+package Exe3;
+
 public class Pontuacao {
 
     public String nomeTimeCasa;
